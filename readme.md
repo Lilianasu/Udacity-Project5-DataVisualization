@@ -1,11 +1,18 @@
-This is a project created for Udacity 6th Unit: Design of visualizations
+# Exploring Ford GoBike 2018  
 
-It pretends to make exploratory and explanatory analyses from the Ford GoBike 2018 data in https://s3.amazonaws.com/fordgobike-data/index.html , not included in this repository, as requested in the instructions of the project.
+## Overview
+This excercise makes exploratory and explanatory analyses from the Ford GoBike 2018 datasets found in https://s3.amazonaws.com/fordgobike-data/index.html.
 
 The main target is to find any relationships between the user types (customers and subscriptors) and other variables: ride duration, start and end stations, age of the riders, and time of the year.
 
-The whole is compounded of 
-- this readme.md
+## Technologies
+* Python
+** numpy, pandas, matplotlib, seaborn
+
+## Key findings
+Two profiles were defined for customers and subscriptors, which include their age, minutes spent by ride, frequented areas, their use throughout the year, and peak usage. 
+
+## Files
 
 - Rides_exploratory.ipynb
   Jupyter notebook with the exploratory process of the 12 csv files of 2018 trip data
